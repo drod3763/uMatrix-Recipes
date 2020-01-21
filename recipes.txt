@@ -1,0 +1,19 @@
+
+! uMatrix: drod3763 Ruleset recipes
+! Title: uMatrix Receipes
+! Maintainer: drod3763
+!
+! Lines starting with character "!" are ignored.
+! Character "_" is an alias for "currently selected scope".
+! An empty line MUST be used to separate distinct ruleset recipes.
+!
+! Please contribute ruleset recipes for the benefit of all other users:
+! https://github.com/uBlockOrigin/uAssets/tree/master/recipes
+
+
+Invidious as 3rd-party (3763)
+	* invidio.us
+        _ invidio.us frame allow
+        _ invidio.us media allow
+        _ invidio.us script allow
+        _ invidio.us xhr allow
