@@ -1,6 +1,5 @@
-
-! uMatrix: drod3763 Ruleset recipes
-! Title: uMatrix Receipes
+! uMatrix: Ruleset recipes 1.0
+! Title: drod3763 uMatrix Receipes
 ! Maintainer: drod3763
 !
 ! Lines starting with character "!" are ignored.
@@ -12,8 +11,18 @@
 
 
 Invidious as 3rd-party (3763)
-	* invidio.us
+    * invidio.us
         _ invidio.us frame allow
         _ invidio.us media allow
         _ invidio.us script allow
         _ invidio.us xhr allow
+        ! Doesn't seem to work without this....
+        _ s.ytimg.com script allow
+
+Youtube as 3rd-party (3763)
+    * youtube.com
+        _ www.youtube.com frame allow
+        _ www.youtube.com media allow
+        _ www.youtube.com script allow
+        _ www.youtube.com xhr allow
+        _ s.ytimg.com script allow
