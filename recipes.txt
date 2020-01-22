@@ -9,6 +9,10 @@
 ! Please contribute ruleset recipes for the benefit of all other users:
 ! https://github.com/uBlockOrigin/uAssets/tree/master/recipes
 
+Audible
+    audible.com *
+        _ m.media-amazon.com media allow
+        _ images-na.ssl-images-amazon.com script allow
 
 Invidious as 3rd-party (3763)
     * invidio.us
