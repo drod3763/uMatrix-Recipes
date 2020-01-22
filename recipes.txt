@@ -1,5 +1,5 @@
 ! uMatrix: Ruleset recipes 1.0
-! Title: drod3763 uMatrix Receipes
+! Title: drod3763 uMatrix Recipes
 ! Maintainer: drod3763
 !
 ! Lines starting with character "!" are ignored.
@@ -18,6 +18,38 @@ Chase (3763)
     chase.com *
         _ static.chasecdn.com script allow
         _ static.chasecdn.com xhr allow
+
+Decentraleyes ONLY - Global Allow CDNs (3763)
+    * ajax.googleapis.com
+        * ajax.googleapis.com * noop
+    * ajax.aspnetcdn.com
+        * ajax.aspnetcdn.com * noop
+    * ajax.microsoft.com
+        * ajax.microsoft.com * noop
+    * cdnjs.cloudflare.com
+        * cdnjs.cloudflare.com * noop
+    * code.jquery.com
+        * code.jquery.com * noop
+    * cdn.jsdelivr.net
+        * cdn.jsdelivr.net * noop
+    * yastatic.net
+        * yastatic.net * noop
+    * yandex.st
+        * yandex.st * noop
+    * apps.bdimg.com
+        * apps.bdimg.com * noop
+    * libs.baidu.com
+        * libs.baidu.com * noop
+    * lib.sinaapp.com
+        * lib.sinaapp.com * noop
+    * upcdn.b0.upaiyun.com
+        * upcdn.b0.upaiyun.com * noop
+    * cdn.bootcss.com
+        * cdn.bootcss.com * noop
+    * sdn.geekzu.org
+        * sdn.geekzu.org * noop
+    * ajax.proxy.ustclug.org
+        * ajax.proxy.ustclug.org * noop
 
 Invidious as 3rd-party (3763)
     * invidio.us
