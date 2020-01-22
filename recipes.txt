@@ -35,6 +35,10 @@ Google Recaptcha (3763)
         _ www.google.com frame allow
         _ www.gstatic.com script allow
 
+Tmobile (3763)
+    t-mobile.com *
+        _ tmobile.wurfl.io script allow
+
 Youtube as 3rd-party (3763)
     * youtube.com
         _ www.youtube.com frame allow
