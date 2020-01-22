@@ -67,6 +67,18 @@ Google Recaptcha (3763)
         _ www.google.com frame allow
         _ www.gstatic.com script allow
 
+Playstation (3763)
+    playstation.com *
+        _ auth.api.sonyentertainmentnetwork.com frame allow
+        _ id.sonyentertainmentnetwork.com script allow
+        _ sonyentertainmentnetwork.com cookie allow
+        _ playstation.net xhr allow
+
+Playstation Login (3763)
+    sonyentertainmentnetwork.com *
+        _ accounts.api.playstation.com xhr allow
+        _ eventcom.api.np.km.playstation.com xhr allow
+
 Tmobile (3763)
     t-mobile.com *
         _ tmobile.wurfl.io script allow
