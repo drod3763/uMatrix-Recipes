@@ -19,6 +19,13 @@ Invidious as 3rd-party (3763)
         ! Doesn't seem to work without this....
         _ s.ytimg.com script allow
 
+Google Recaptcha (3763)
+    * www.google.com
+        _ www.google.com script allow
+        _ www.google.com xhr allow
+        _ www.google.com frame allow
+        _ www.gstatic.com script allow
+
 Youtube as 3rd-party (3763)
     * youtube.com
         _ www.youtube.com frame allow
