@@ -51,6 +51,18 @@ Decentraleyes ONLY - Global Allow CDNs (3763)
     * ajax.proxy.ustclug.org
         * ajax.proxy.ustclug.org * noop
 
+Google Docs as 3rd-party (3763)
+    * docs.google.com
+        _ docs.google.com script allow
+        _ docs.google.com frame allow
+
+Google Recaptcha (3763)
+    * www.google.com
+        _ www.google.com script allow
+        _ www.google.com xhr allow
+        _ www.google.com frame allow
+        _ www.gstatic.com script allow
+
 Invidious as 3rd-party (3763)
     * invidio.us
         _ invidio.us frame allow
@@ -59,13 +71,6 @@ Invidious as 3rd-party (3763)
         _ invidio.us xhr allow
         ! Doesn't seem to work without this....
         _ s.ytimg.com script allow
-
-Google Recaptcha (3763)
-    * www.google.com
-        _ www.google.com script allow
-        _ www.google.com xhr allow
-        _ www.google.com frame allow
-        _ www.gstatic.com script allow
 
 Playstation (3763)
     playstation.com *
