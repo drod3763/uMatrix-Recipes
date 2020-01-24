@@ -94,6 +94,11 @@ Playstation Login (3763)
 Tmobile (3763)
     t-mobile.com *
         _ tmobile.wurfl.io script allow
+    
+Wistia as 3rd-party (3763)
+    * fast.wistia.com
+        _ fast.wistia.com script allow
+        _ embedwistia-a.akamaihd.net xhr allow
 
 Youtube as 3rd-party (3763)
     * youtube.com
