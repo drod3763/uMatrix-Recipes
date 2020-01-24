@@ -79,6 +79,11 @@ Invidious as 3rd-party (3763)
         ! Doesn't seem to work without this....
         _ s.ytimg.com script allow
 
+MyKajabi (3763)
+    mykajabi.com *
+        _ ap-kajabi-storefronts-production.global.ssl.fastly.net script allow
+        _ kajabi-storefronts-production.global.ssl.fastly.net script allow
+
 Playstation (3763)
     playstation.com *
         _ auth.api.sonyentertainmentnetwork.com frame allow
