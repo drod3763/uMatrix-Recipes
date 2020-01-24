@@ -51,6 +51,13 @@ Decentraleyes ONLY - Global Allow CDNs (3763)
     * ajax.proxy.ustclug.org
         * ajax.proxy.ustclug.org * noop
 
+Disqus as 3rd-party (3763)
+    * disqus.com
+        _ disqus.com script allow
+        _ disqus.com xhr allow
+        _ disqus.com frame allow
+        _ c.disquscdn.com script allow
+
 Google Docs as 3rd-party (3763)
     * docs.google.com
         _ docs.google.com script allow
