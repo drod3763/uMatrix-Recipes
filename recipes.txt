@@ -129,3 +129,4 @@ Youtube as 3rd-party (3763)
         _ www.youtube.com script allow
         _ www.youtube.com xhr allow
         _ s.ytimg.com script allow
+        _ googlevideo.com xhr allow
