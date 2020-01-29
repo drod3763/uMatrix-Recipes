@@ -14,6 +14,10 @@ Audible (3763)
         _ m.media-amazon.com media allow
         _ images-na.ssl-images-amazon.com script allow
 
+Blizzard (3763)
+    blizzard.com *
+        _ d9me64que7cqs.cloudfront.net script allow
+
 Chase (3763)
     chase.com *
         _ static.chasecdn.com script allow
