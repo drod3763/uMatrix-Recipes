@@ -63,6 +63,13 @@ Firebase as 3rd-party (3763)
         _ prc-app-prod-interactives.firebaseio.com script allow
         _ s-usc1c-nss-274.firebaseio.com script allow
 
+Gizmodo (3763)
+    gizmodo.com *
+        _ i.kinja-img.com media allow
+        _ kinja-otfp.global.ssl.fastly.net xhr allow
+        _ kinja.com script allow
+        _ x.kinja-static.com script allow
+
 Google Docs as 3rd-party (3763)
     * docs.google.com
         _ docs.google.com script allow
