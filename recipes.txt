@@ -58,6 +58,11 @@ Disqus as 3rd-party (3763)
         _ disqus.com frame allow
         _ c.disquscdn.com script allow
 
+Firebase as 3rd-party (3763)
+    * firebaseio.com
+        _ prc-app-prod-interactives.firebaseio.com script allow
+        _ s-usc1c-nss-274.firebaseio.com script allow
+
 Google Docs as 3rd-party (3763)
     * docs.google.com
         _ docs.google.com script allow
