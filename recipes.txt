@@ -89,6 +89,11 @@ MyKajabi (3763)
         _ ap-kajabi-storefronts-production.global.ssl.fastly.net script allow
         _ kajabi-storefronts-production.global.ssl.fastly.net script allow
 
+Oculus - No Facebook (3763)
+    oculus.com *
+        _ static.xx.fbcdn.net script allow
+        _ scontent.oculuscdn.com media allow
+
 Playstation (3763)
     playstation.com *
         _ auth.api.sonyentertainmentnetwork.com frame allow
