@@ -113,6 +113,15 @@ Playstation Login (3763)
         _ accounts.api.playstation.com xhr allow
         _ eventcom.api.np.km.playstation.com xhr allow
 
+Reddit (3763)
+    reddit.com *
+        _ v.redd.it media allow
+        _ v.redd.it xhr allow
+        _ www.redditmedia.com frame allow
+        _ www.redditstatic.com script allow
+        ! Necessary to unbreak ability to upload
+		_ reddit-uploaded-media.s3-accelerate.amazonaws.com xhr
+
 Tmobile (3763)
     t-mobile.com *
         _ tmobile.wurfl.io script allow
