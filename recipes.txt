@@ -113,6 +113,12 @@ Playstation Login (3763)
         _ accounts.api.playstation.com xhr allow
         _ eventcom.api.np.km.playstation.com xhr allow
 
+Steam (3763)
+    steampowered.com *
+        _ steamcdn-a.akamaihd.net media allow
+        _ steamcommunity.com frame allow
+        _ steamstore-a.akamaihd.net script allow
+
 Tmobile (3763)
     t-mobile.com *
         _ tmobile.wurfl.io script allow
