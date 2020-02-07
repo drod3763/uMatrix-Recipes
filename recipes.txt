@@ -63,6 +63,16 @@ Firebase as 3rd-party (3763)
         _ prc-app-prod-interactives.firebaseio.com script allow
         _ s-usc1c-nss-274.firebaseio.com script allow
 
+Giantbomb (3763)
+    giantbomb.com *
+        _ giantbomb1.cbsistatic.com media allow
+        _ giantbomb1.cbsistatic.com script allow
+        _ giantbomb1.cbsistatic.com xhr allow
+        _ giantbombvideo.cbsistatic.com xhr allow
+        _ static-giantbombvideo.cbsistatic.com media allow
+        _ vidtech.cbsinteractive.com media allow
+        _ vidtech.cbsinteractive.com script allow
+
 Gizmodo (3763)
     gizmodo.com *
         _ i.kinja-img.com media allow
