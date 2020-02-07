@@ -133,6 +133,17 @@ Steam (3763)
 Tmobile (3763)
     t-mobile.com *
         _ tmobile.wurfl.io script allow
+
+Twitter as 3rd-party
+    * twitter.com
+        _ twitter.com frame allow
+        _ api.twitter.com xhr allow
+        _ platform.twitter.com script allow
+        _ platform.twitter.com script allow
+        _ syndication.twitter.com xhr allow
+        _ abs.twimg.com script allow
+        _ cdn.syndication.twimg.com script allow
+        _ video.twimg.com media allow
     
 Wistia as 3rd-party (3763)
     * fast.wistia.com
