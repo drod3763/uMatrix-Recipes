@@ -139,6 +139,10 @@ Wistia as 3rd-party (3763)
         _ fast.wistia.com script allow
         _ embedwistia-a.akamaihd.net xhr allow
 
+Wordpress as 3rd-party (3763)
+    * wp.com
+        _ c0.wp.com script allow
+
 Youtube as 3rd-party (3763)
     * youtube.com
         _ www.youtube.com frame allow
