@@ -84,6 +84,11 @@ Giantbomb (3763)
         _ vidtech.cbsinteractive.com media allow
         _ vidtech.cbsinteractive.com script allow
 
+Giphy as 3rd-party
+    * giphy.com
+        _ giphy.com frame allow
+        _ giphy.com script allow
+
 Gizmodo (3763)
     gizmodo.com *
         _ i.kinja-img.com media allow
