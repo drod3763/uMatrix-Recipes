@@ -58,6 +58,12 @@ Disqus as 3rd-party (3763)
         _ disqus.com frame allow
         _ c.disquscdn.com script allow
 
+Datsusara
+    dsgear.com *
+        _ cdn.shopify.com script allow
+        _ productreviews.shopifycdn.com script allow
+        _ s3.amazonaws.com script allow
+
 Firebase as 3rd-party (3763)
     * firebaseio.com
         _ prc-app-prod-interactives.firebaseio.com script allow
