@@ -108,6 +108,13 @@ Google Recaptcha (3763)
         _ www.google.com frame allow
         _ www.gstatic.com script allow
 
+HumbleBundle
+    humblebundle.com *
+        _ humblebundle-a.akamaihd.net script allow
+        ! Extra permissions necessary to surface Recaptcha recipe.
+        _ www.gstatic.com script allow
+        _ www.recaptcha.net script allow
+
 Invidious as 3rd-party (3763)
     * invidio.us
         _ invidio.us frame allow
