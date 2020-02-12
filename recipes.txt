@@ -96,6 +96,12 @@ Gizmodo (3763)
         _ kinja.com script allow
         _ x.kinja-static.com script allow
 
+GOG
+    gog.com *
+        _ menu-static.gog-statics.com script allow
+        _ productcard.gog-statics.com script allow
+        _ static-login.gog-statics.com script allow
+
 Google Docs as 3rd-party (3763)
     * docs.google.com
         _ docs.google.com script allow
