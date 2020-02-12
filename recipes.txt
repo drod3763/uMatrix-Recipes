@@ -138,6 +138,10 @@ Nintendo eShop (3763)
         _ player.ooyala.com xhr allow
         _ secure-cf-c.ooyala.com xhr allow
 
+Outline
+    outline.com *
+        _ outlineapi.com xhr allow
+
 Playstation (3763)
     playstation.com *
         _ auth.api.sonyentertainmentnetwork.com frame allow
