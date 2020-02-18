@@ -102,6 +102,10 @@ GOG
         _ productcard.gog-statics.com script allow
         _ static-login.gog-statics.com script allow
 
+Google Account
+    accounts.google.com *
+        _ ssl.gstatic.com script allow
+
 Google Docs as 3rd-party (3763)
     * docs.google.com
         _ docs.google.com script allow
@@ -201,6 +205,10 @@ Wistia as 3rd-party (3763)
 Wordpress as 3rd-party (3763)
     * wp.com
         _ c0.wp.com script allow
+
+Youtube
+    youtube.com *
+        _ googlevideo.com xhr allow
 
 Youtube as 3rd-party (3763)
     * youtube.com
