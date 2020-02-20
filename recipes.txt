@@ -19,6 +19,12 @@ Chase (3763)
         _ static.chasecdn.com script allow
         _ static.chasecdn.com xhr allow
 
+Codepen
+    codepen.io *
+        _ cdpn.io frame allow
+        _ cdpn.io script allow
+        _ cdpn.io xhr allow
+
 Decentraleyes ONLY - Global Allow CDNs (3763)
     * ajax.googleapis.com
         * ajax.googleapis.com * noop
