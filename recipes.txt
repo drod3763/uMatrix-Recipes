@@ -182,6 +182,14 @@ Steam (3763)
         _ steamcommunity.com frame allow
         _ steamstore-a.akamaihd.net script allow
 
+Stripe as 3rd-party
+    * stripe.com
+        _ js.stripe.com frame allow
+        _ js.stripe.com script allow
+        _ m.stripe.com xhr allow
+        _ m.stripe.network frame allow
+        _ m.stripe.network script allow
+
 Tmobile (3763)
     t-mobile.com *
         _ tmobile.wurfl.io script allow
