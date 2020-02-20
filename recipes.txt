@@ -188,6 +188,10 @@ Steam (3763)
         _ steamcommunity.com frame allow
         _ steamstore-a.akamaihd.net script allow
 
+ThreadReader
+    threadreaderapp.com *
+        _ ajax.cloudflare.com script allow
+
 Tmobile (3763)
     t-mobile.com *
         _ tmobile.wurfl.io script allow
@@ -196,7 +200,6 @@ Twitter as 3rd-party
     * twitter.com
         _ twitter.com frame allow
         _ api.twitter.com xhr allow
-        _ platform.twitter.com script allow
         _ platform.twitter.com script allow
         _ syndication.twitter.com xhr allow
         _ abs.twimg.com script allow
