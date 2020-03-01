@@ -90,6 +90,13 @@ Giantbomb (3763)
         _ vidtech.cbsinteractive.com media allow
         _ vidtech.cbsinteractive.com script allow
 
+Github
+    github.com *
+        _ github.githubassets.com script allow
+        _ raw.githubusercontent.com xhr allow
+        _ render.githubusercontent.com frame allow
+        _ render.githubusercontent.com script allow
+
 Giphy as 3rd-party
     * giphy.com
         _ giphy.com frame allow
