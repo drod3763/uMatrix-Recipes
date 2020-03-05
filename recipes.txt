@@ -57,18 +57,23 @@ Decentraleyes ONLY - Global Allow CDNs (3763)
     * ajax.proxy.ustclug.org
         * ajax.proxy.ustclug.org * noop
 
+Datsusara
+    dsgear.com *
+        _ cdn.shopify.com script allow
+        _ productreviews.shopifycdn.com script allow
+        _ s3.amazonaws.com script allow
+
+Discourse as 3rd-party
+    * discourse-cdn.com
+        _ aws1.discourse-cdn.com script allow
+        _ sjc4.discourse-cdn.com script allow
+
 Disqus as 3rd-party (3763)
     * disqus.com
         _ disqus.com script allow
         _ disqus.com xhr allow
         _ disqus.com frame allow
         _ c.disquscdn.com script allow
-
-Datsusara
-    dsgear.com *
-        _ cdn.shopify.com script allow
-        _ productreviews.shopifycdn.com script allow
-        _ s3.amazonaws.com script allow
 
 Embedly as 3rd-party
     * embedly.com
